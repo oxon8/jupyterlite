@@ -1,0 +1,21 @@
+CI:
+- Carbon intensity
+MI:
+- Input Total
+- Total
+- CO2
+- Imports
+- Intermediate input total
+- Value added at basic prices
+MIMO:
+- Input Sum
+- OutputSum
+- Intra-Industry
+MO:
+- Total2
+- Exports
+- Final consumption
+metrics:
+- Eigenvector
+- In-degree Centrality
+- Out-degree Centrality
