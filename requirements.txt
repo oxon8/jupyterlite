@@ -43,3 +43,5 @@ ipyleaflet
 # Python: plotting libraries (optional)
 plotly>=5,<6
 bqplot
+panel=1.5.0a5
+pyarrow=14.0.2
