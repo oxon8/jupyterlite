@@ -1,0 +1,1 @@
+{"MI": ["TI", "_R69_", "_CO2_", "IM", "TII", "VA001", "VA004", "TVA"], "MO": ["GO", "EX", "TFU", "FU101", "FU102", "FU103", "FU201", "FU202"], "CI": ["_CI_", "_CIVA_", "_CIFU_"], "MIMO": ["NodeIntra", "OutputSum", "InputSum"], "metrics": ["eigenvector", "betweenness", "closeness_centrality", "katz", "pagerank", "in_degree_centrality", "out_degree_centrality", "clustcoef"]}
