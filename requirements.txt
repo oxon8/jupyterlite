@@ -42,6 +42,5 @@ ipyleaflet
 
 # Python: plotting libraries (optional)
 pyecharts
-panel=1.5.0a5
-pyarrow=14.0.2
-jupyter_bokeh
+panel>=1.5.0a5
+pyarrow>=14.0.2
