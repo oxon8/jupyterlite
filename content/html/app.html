@@ -435,7 +435,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         print (cmd0)
         exec (cmd0)
         for locale in sel_cols_locale:
-            fn = f'conf/{kind}_all-{locale}.json'
+            fn = f'https://oxon8.github.io/jupyterlite/files/html/conf/{kind}_all-{locale}.json'
             data_in = read_json(fn)
             print (f"\tLoading: {fn}", end='\n')
             cmd = f"""\t\t{kind}_all ['{locale}'] = data_in"""
@@ -473,7 +473,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     for kind in ["all", "sel"]:
         for locale in sel_cols_locale:
-            fn = f'conf/{kind}_indicators-{locale}.json'
+            fn = f'https://oxon8.github.io/jupyterlite/files/html/conf/{kind}_indicators-{locale}.json'
             print (f"Loading {fn}", end="\t")
             data = read_json(fn)
             cmd = f'{kind}_indicators ["{locale}"] = data'
@@ -502,11 +502,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     for locale in sel_cols_locale:
         # color dictionaries
-        fn = f'conf/Industry_Classification_Color-{locale}.json'
+        fn = f'https://oxon8.github.io/jupyterlite/files/html/conf/Industry_Classification_Color-{locale}.json'
         dict_color = read_json(fn)
         
         # translation dictionaries
-        fn = f'conf/Translation-{locale}.json'
+        fn = f'https://oxon8.github.io/jupyterlite/files/html/conf/Translation-{locale}.json'
         dict_trans = read_json(fn)
         # shorter variable names
         
